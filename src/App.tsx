@@ -126,15 +126,16 @@ export default function App() {
               {/* Content */}
               <div className="mt-1 text-center z-10">
                 <p className="font-serif text-[10px] sm:text-[11px] text-[#7A6A63] leading-relaxed px-2">
-                  Com a benção de seus pais, Valdirene e Carlos<br/>
-                  e Maria e Divino<br/><br/>
-                  Convidam você para a celebração do casamento de seus filhos, Ketlyn & Luiz Otávio.
+                  Com a benção de seus pais, Valdirene e Carlos,<br/>
+                  Maria e Divino<br/><br/>
+                  Convidam você para a celebração do casamento de seus filhos,<br/>
+                  Luiz Otávio & Ketlyn.
                 </p>
               </div>
 
               <div className="my-1 z-10">
-                <h1 className="font-serif text-4xl sm:text-5xl text-[#4A3B32] tracking-wider flex items-center gap-3">
-                  K <span className="text-xl sm:text-2xl text-[#C26B51] font-light">&</span> L
+                <h1 className="font-elegant text-4xl sm:text-5xl text-[#4A3B32] tracking-[0.2em] flex items-center gap-3">
+                  L <span className="text-xl sm:text-2xl text-[#C26B51] font-light">&</span> K
                 </h1>
               </div>
 
@@ -258,7 +259,7 @@ export default function App() {
           transition={{ duration: 0.3 }}
         >
           <div className="w-12 h-12 border border-[#B8962E] rounded-full flex items-center justify-center bg-[#C9A32E]">
-            <span className="text-[#8A6D1A] font-serif text-lg italic pr-1">K&L</span>
+            <span className="text-[#8A6D1A] font-elegant text-lg tracking-wider pr-0.5">L&K</span>
           </div>
         </motion.div>
 
